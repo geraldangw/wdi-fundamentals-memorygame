@@ -30,12 +30,6 @@ margin:30px;
 font-weight: bold;
  }
 
- h2 {
- 	color: #ffd700;
- 	font-size:25px;
- 	padding:10px;
- }
-
  h3 {
  	color: #009900;
  	font-size:22px;
@@ -57,15 +51,14 @@ font-weight: bold;
 	float:left;
  }
 
+ img {
+ 	height: 200px;
+ 	width: 150px;
+ }
+
  a:hover {
  	color: rgb(255,0,0);
  	background-color:#ee5f3c;
- }
-
- .board {
- 	height: 50%;
- 	width: 50%;
- 	display: inline-block;
  }
 
 .card {
@@ -77,6 +70,12 @@ font-weight: bold;
  	float:left;
  	margin:12%;
 }
+
+ .board {
+ 	height: 50%;
+ 	width: 50%;
+ 	display: inline-block;
+ }
 
  .name {
 	color:#aa0000;
